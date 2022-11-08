@@ -34,7 +34,7 @@ body {
 /* Site logo */
 .logo {
   font-family: Raleway, sans-serif;
-  color: #000000;
+  color: var(--black-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.38;
@@ -155,6 +155,7 @@ body {
 .site-footer {
   background-color: var(--dark-background);
 }
+
 .contact {
   font-style: normal;
   font-size: 14px;
@@ -162,6 +163,47 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
+
 .darkened {
   color: var(--dark-address);
+}
+
+/* Filter buttons for the list of works */
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #var(--title-color);
+  background-color: var(--advantages-background);
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* The list of works */
+.works {
+  background-color: var(--advantages-background);
+  list-style: none;
+}
+
+.works h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  background-color: var(--white-color);
+}
+
+.works p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--white-color);
 }
