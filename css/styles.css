@@ -7,7 +7,7 @@
   --dark-background: #2F303A;
   --advantages-background: #F5F5F5;
   --team-background: #F5F4FA;
-  --dark-address: color: rgba(255, 255, 255, 0.6);
+  --dark-address: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -96,7 +96,7 @@ body {
   line-height: 1.88em;
   text-align: center;
   letter-spacing: 0.06em;
-
+  font-family: inherit;
 }
 
 /* Section Advantages */
@@ -175,8 +175,9 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #var(--title-color);
+  color: var(--title-color);
   background-color: var(--advantages-background);
+  font-family: inherit;
 }
 
 .filter:hover,
@@ -207,3 +208,6 @@ body {
   color: var(--title-color);
   background-color: var(--white-color);
 }
+
+
+
