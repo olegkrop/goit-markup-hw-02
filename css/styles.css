@@ -19,6 +19,9 @@ body {
 
 .list {
   list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
 
@@ -29,6 +32,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.finger {
+  cursor: pointer;
 }
 
 /* Site logo */
@@ -54,6 +61,8 @@ body {
   color: var(--white-color);
 }
 
+
+
 /* Site nav */
 .site-nav {
   color: var(--title-color);
@@ -64,7 +73,7 @@ body {
 }
 
 .site-nav.current {
-  color: #f00;
+  color: var(--accent-color);
 }
 
 .site-nav:hover,
