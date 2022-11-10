@@ -78,7 +78,10 @@ body {
 }
 
 .site-nav:hover,
-.site-nav:focus,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
 .site-nav.email {
   color: var(--accent-color);
 }
@@ -86,7 +89,10 @@ body {
 .site-nav.phone {
   color: var(--text-color);
 }
-
+.site-nav.phone:hover,
+.site-nav.phone:focus {
+  color: var(--accent-color);
+}
 /* Section Hero */
 
 .hero {
@@ -177,6 +183,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
 
 .darkened {
