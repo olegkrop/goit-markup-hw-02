@@ -57,12 +57,9 @@ body {
   color: var(--accent-color);
 }
 
-
 .logo-white {
   color: var(--white-color);
 }
-
-
 
 /* Site nav */
 .site-nav {
@@ -82,17 +79,15 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav.email {
+.site-nav.email-phone {
+  color: var(--text-color);
+}
+
+.site-nav.email-phone:hover,
+.site-nav.email-phone:focus {
   color: var(--accent-color);
 }
 
-.site-nav.phone {
-  color: var(--text-color);
-}
-.site-nav.phone:hover,
-.site-nav.phone:focus {
-  color: var(--accent-color);
-}
 /* Section Hero */
 
 .hero {
@@ -202,7 +197,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background-color: var(--advantages-background);
+  background-color: var(--advant-background);
   font-family: inherit;
 }
 
