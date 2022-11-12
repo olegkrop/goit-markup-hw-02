@@ -1,17 +1,18 @@
 :root {
-  --accent-color: #2196f3;
-  --title-color: #212121;
   --text-color: #757575;
+  --accent-color: #2196f3;
+  --backgroung-color: #F5F5F5;
+  --title-color: #212121;
   --white-color: #fff;
   --black-color: #000;
-  --dark-background: #2F303A;
-  --advant-background: #F5F5F5;
+  --hero-background: #2F303A;
   --team-background: #F5F4FA;
+  --works-background: #EEEEEE;
   --dark-address: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: var(--backgroung-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -25,17 +26,13 @@ body {
   text-decoration: none;
 }
 
-.section-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-
 .finger {
   cursor: pointer;
+}
+
+/* Section Header */
+.section-header {
+  background-color: var(--white-color);
 }
 
 /* Site logo */
@@ -63,11 +60,11 @@ body {
 
 /* Site nav */
 .site-nav {
-  color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.16;
-  letter-spacing: 0.02em
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .site-nav.current {
@@ -91,7 +88,7 @@ body {
 /* Section Hero */
 
 .hero {
-  background-color: var(--dark-background);
+  background-color: var(--hero-background);
   text-align: center;
 }
 
@@ -105,21 +102,16 @@ body {
 }
 
 .button {
+  font-family: inherit;
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88em;
-  text-align: center;
   letter-spacing: 0.06em;
-  font-family: inherit;
 }
 
 /* Section Advantages */
-.section-advant {
-  background-color: var(--advant-background);
-}
-
 .section-advant h3 {
   font-weight: 700;
   font-size: 14px;
@@ -133,13 +125,19 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+}
+
+/* Header syle for <h2> */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.174;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
 }
 
 /* Section What We Do */
-.section-wwd {
-  background-color: var(--advant-background);
-}
 
 /* Section Our Team */
 .team {
@@ -164,12 +162,11 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 
 /* Site footer */
 .site-footer {
-  background-color: var(--dark-background);
+  background-color: var(--hero-background);
 }
 
 .contact {
@@ -197,7 +194,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background-color: var(--advant-background);
+  background-color: var(--team-background);
   font-family: inherit;
 }
 
@@ -209,7 +206,6 @@ body {
 
 /* The list of works */
 .works {
-  background-color: var(--advant-background);
   list-style: none;
 }
 
@@ -230,6 +226,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--text-color);
   background-color: var(--white-color);
 }
