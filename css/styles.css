@@ -1,7 +1,9 @@
 :root {
   --text-color: #757575;
   --accent-color: #2196f3;
+  /* Бо ментор проти 
   --backgroung-color: #F5F5F5;
+  */
   --title-color: #212121;
   --white-color: #fff;
   --black-color: #000;
@@ -12,7 +14,9 @@
 }
 
 body {
+  /* Бо ментор проти 
   background-color: var(--backgroung-color);
+  */
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
